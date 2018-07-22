@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
     <item
-        android:id="@+id/menu_main_search"
-        android:icon="@android:drawable/ic_menu_search"
-        app:showAsAction="always|collapseActionView"
-        app:actionViewClass="android.support.v7.widget.SearchView"
-        android:title="@string/search_hint"/>
+        android:id="@+id/action_new_topics"
+        android:enabled="true"
+        android:icon="@drawable/ic_new"
+        android:title="Hot Topics"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_favorites"
+        android:enabled="true"
+        android:icon="@drawable/ic_star_black_24dp"
+        android:title="Favorites"
+        app:showAsAction="ifRoom" />
 </menu>

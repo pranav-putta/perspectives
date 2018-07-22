@@ -26,7 +26,8 @@
         </activity>
         <activity
             android:name=".ui.LoginActivity"
-            android:label="Sign In" />
+            android:label="Sign In"
+            android:theme="@style/AppFullscreenTheme"/>
         <activity android:name=".ui.SearchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -36,7 +37,9 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-        <activity android:name=".ui.MainActivity"></activity>
+        <activity android:name=".ui.MainActivity"
+            android:theme="@style/AppFullscreenTheme">
+        </activity>
         <activity android:name=".ui.ItemActivity"></activity>
     </application>
 
