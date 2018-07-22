@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "680418300998",
+    "firebase_url": "https://perspectives-638ca.firebaseio.com",
+    "project_id": "perspectives-638ca",
+    "storage_bucket": "perspectives-638ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680418300998:android:53b0f01919f0bb63",
+        "android_client_info": {
+          "package_name": "net.codealizer.perspectives"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680418300998-5p4b680urkmqp1q92iqc6ta1g6t1qrso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL9b52hG2TrPPt7ePvddvtpC3I5YDRZrk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
