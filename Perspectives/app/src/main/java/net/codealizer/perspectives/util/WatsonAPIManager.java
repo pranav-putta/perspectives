@@ -24,12 +24,18 @@ public class WatsonAPIManager {
 
      ToneAnalyzer mAPI;
 
+     private static WatsonAPIManager instance;
+
     private WatsonAPIManager() {
         mAPI = new ToneAnalyzer(VERSION, USERNAME, PASSWORD);
     }
 
     public static WatsonAPIManager getInstance() {
-        return new WatsonAPIManager();
+        if (instance == null) {
+            instance = new WatsonAPIManager();
+        }
+
+        return instance;
     }
 
     /**

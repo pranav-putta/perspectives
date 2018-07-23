@@ -38,7 +38,7 @@
             android:layout_alignParentStart="true"
             android:layout_margin="25dp"
             app:cardBackgroundColor="@color/md_grey_300"
-            app:cardCornerRadius="100dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="0dp">
 
             <RelativeLayout
@@ -73,7 +73,7 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="25dp"
             app:cardBackgroundColor="@color/md_grey_300"
-            app:cardCornerRadius="100dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="0dp">
 
             <RelativeLayout
@@ -109,7 +109,7 @@
             android:layout_centerHorizontal="true"
             android:layout_margin="25dp"
             app:cardBackgroundColor="@color/md_grey_300"
-            app:cardCornerRadius="100dp"
+            app:cardCornerRadius="20dp"
             app:cardElevation="0dp">
 
             <RelativeLayout
@@ -160,7 +160,7 @@
                 android:layout_height="100dp"
                 android:gravity="center"
                 android:id="@+id/item_hashtag"
-                android:layout_weight="25"
+                android:layout_weight="35"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
             <LinearLayout
@@ -168,7 +168,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:weightSum="3"
-                android:layout_weight="75">
+                android:layout_weight="65">
 
                 <TextView
                     android:layout_width="match_parent"

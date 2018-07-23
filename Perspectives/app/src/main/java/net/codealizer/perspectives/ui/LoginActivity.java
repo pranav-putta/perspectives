@@ -202,14 +202,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                 mPasswordView.setError("Your password was incorrect");
                             }
                         }
-                    });
-        }
+                    }); }
     }
 
-    public void attemptGoogleSignIn() {
-        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-        startActivityForResult(signInIntent, RC_SIGN_IN);
-    }
 
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic
